@@ -1,0 +1,75 @@
+/* Pengaturan Dasar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* -------------------------
+   Gaya Navigasi (Menu Atas) 
+   ------------------------- */
+.navbar {
+    background-color: #2c3e50;
+    padding: 15px;
+}
+
+.navbar ul {
+    list-style-type: none; /* Menghilangkan titik (bullet) pada daftar */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Memosisikan menu di tengah */
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #3498db; /* Efek perubahan warna saat menu disentuh kursor */
+}
+
+/* -------------------------
+   Gaya Tata Letak Foto 
+   ------------------------- */
+.konten-galeri {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.kumpulan-foto {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Jarak antar foto */
+    flex-wrap: wrap; /* Memastikan foto turun ke baris baru jika layar sempit */
+    margin-top: 20px;
+}
+
+.kartu-foto {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.kartu-foto img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.kartu-foto p {
+    color: #555;
+    margin-top: 10px;
+}
